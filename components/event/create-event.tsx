@@ -87,7 +87,7 @@ const CreateEvent = () => {
   useEffect(() => {
     if (userSession.isUserSignedIn()) {
       setWalletConnected(true);
-      setActiveStep(2);
+      setActiveStep(0);
       fetchEvents();
     }
   }, []);
