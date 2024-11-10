@@ -67,6 +67,7 @@ const CreateEvent = () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [walletConnected, setWalletConnected] = useState(false);
   const [btcAmount, setBtcAmount] = useState("");
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [events, setEvents] = useState<Event[]>([]);
 
   const [name, setName] = useState("");
