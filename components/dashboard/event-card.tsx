@@ -1,4 +1,3 @@
-// @ts-expect-error False Error
 import { EventType } from "@/types/event";
 
 export default function EventCard({ event }: { event: EventType }) {
