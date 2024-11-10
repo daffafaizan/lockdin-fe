@@ -15,7 +15,7 @@ export const events = [
   {
     id: 2,
     organizer: "tb1q0m3d9wpsm5dn50q6vgzf93hn8n6g6gvuy5zAlx",
-    name: "Dom & Phil's Party",
+    name: "Dom & Phil's Hackathon Afterparty",
     date: "7 November 2024",
     location: "London, England",
     maxCapacity: 200,
