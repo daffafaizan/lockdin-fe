@@ -398,7 +398,7 @@ const CreateEvent = () => {
               <Dialog>
                 <DialogTrigger asChild>
                   <Button className="w-full" variant="default">
-                    Stake
+                    Register & Stake
                   </Button>
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[425px]">
