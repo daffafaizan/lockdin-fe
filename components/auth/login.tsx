@@ -16,7 +16,7 @@ const Login = () => {
   useEffect(() => {
     if (userSession.isUserSignedIn()) {
       setWalletConnected(true);
-      router.push("/events");
+      router.push("/dashboard");
     }
   }, [router]);
 
@@ -30,7 +30,7 @@ const Login = () => {
         },
         onFinish: () => {
           setWalletConnected(true);
-          router.push("/events");
+          router.push("/dashboard");
         },
         onCancel: () => {
           console.log("Wallet connection cancelled");
